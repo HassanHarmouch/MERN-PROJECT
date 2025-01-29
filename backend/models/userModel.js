@@ -41,6 +41,7 @@ const userSchema= new mongoose.Schema({
         trim: true,
         required: [true, "Please confirm your password"],
     },
+    
     passwordChangedAt: Date,
 
     role: {
